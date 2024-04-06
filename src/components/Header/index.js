@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 function Header() {
   return (
     <>
-      <Navbar bg="primary" fixed="top" data-bs-theme="dark">
+      <Navbar bg="primary" sticky="top" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="/">Navbar</Navbar.Brand>
           <Nav className='me-auto'>

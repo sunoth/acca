@@ -1,0 +1,21 @@
+.request-call-back-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #8c8c8c;
+    box-shadow: 1px 1px 0px 1px #efefff;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+    @media screen and (min-width:768px) {
+        max-width: 300px;
+    }
+
+}
+.request-call-back-heading {
+    font-size: 25px;
+    font-weight: 500;
+    @media screen and (min-width:768px) {
+        font-size: 15px;
+    }
+
+}
