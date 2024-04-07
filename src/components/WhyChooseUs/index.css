@@ -1,0 +1,45 @@
+.wcu-container{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wcu-heading{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.wcu-underline {
+    border: 2px solid #0000ff;
+    width: 80px;
+    font-weight: 600;
+}
+.wcu-items-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    @media screen and (min-width:768px) {
+        flex-direction: row;
+    }
+}
+.wcu-item-container{
+    min-width: 240px;
+    max-width: 270px;
+    border: 2px solid #efefff;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    border-radius: 6px;
+    padding: 15px;
+}
+.wcu-image {
+    height: 100px;
+}
+.wcu-item-heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+.wcu-item-description {
+    font-size: 13px;
+    font-weight: 400;
+}

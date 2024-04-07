@@ -17,7 +17,7 @@ function Header() {
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
                 <Button variant="light">
-                    Log: Mark
+                    Log
                 </Button>
             </Navbar.Text>
         </Navbar.Collapse>

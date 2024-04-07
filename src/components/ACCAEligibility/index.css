@@ -1,0 +1,27 @@
+.acca-e-container {
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width:768px) {
+        flex-direction: row;
+    }
+}
+.acca-e-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #efefff;
+    width: 280px;
+    margin: 8px;
+    @media screen and (min-width:992px) {
+        width: 240px;
+    }
+}
+.e-heading{
+    font-size: 20px;
+    @media screen and (min-width:768px) {
+        font-size: 30px;
+    }
+}
