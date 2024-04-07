@@ -2,6 +2,7 @@ import './App.css';
 import ACCAEligibility from './components/ACCAEligibility';
 import BecomeACCAin18Months from './components/BecomeACCAin18Months';
 import Header from './components/Header';
+import KickOffACCAPrep from './components/KickOffACCAPrep';
 import PlacementAssistance from './components/PlacementAssistance';
 import WhatWillYouLearnInACCA from './components/WhatWillYouLearnInACCA';
 
@@ -16,6 +17,7 @@ function App() {
       <ACCAEligibility />
       <WhatWillYouLearnInACCA />
       <PlacementAssistance />
+      <KickOffACCAPrep />
     </div>
   );
 }
