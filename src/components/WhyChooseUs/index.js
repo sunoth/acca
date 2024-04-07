@@ -6,7 +6,7 @@ import './index.css';
 
 function WhyChooseUs(){
     return(
-        <div className='wcu-container'>
+        <div className='wcu-container' id="WhyChooseUs">
             <h1 className='wcu-heading'>Why Choose Us?</h1>
             <hr className='wcu-underline'/>
             <div className='wcu-items-container'>

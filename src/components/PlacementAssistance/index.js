@@ -2,7 +2,7 @@ import './index.css'
 
 function PlacementAssistance(){
     return(
-        <div className='placement-assistance-container'>
+        <div id='PlacementAssistance' className='placement-assistance-container'>
             <div className='d-flex flex-column align-items-center'>
                 <h1 className='wcu-heading'>100% Placement Assistance</h1>
                 <hr className='wcu-underline'/>

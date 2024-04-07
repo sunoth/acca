@@ -1,11 +1,17 @@
+import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import Modal from 'react-bootstrap/Modal';
 import './index.css'
 
 
 function RequestCallBack() {
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
   return (
     <div className='w-100 d-flex justify-content-center align-items-center'>
         <div className='request-call-back-container'>
@@ -36,17 +42,28 @@ function RequestCallBack() {
                         </Form.Label>
                         <Form.Control className='mb-3' id="inlineFormInputUser" placeholder="Email" />
                     </Col>
-
-                    <Col xs="col-12">
-                        <Button type="submit" className="mb-2">
-                            Request Call Back
-                        </Button>
-                    </Col>
                 </Row>
             </Form>
+            <>
+                <Button variant="primary" onClick={handleShow} >
+                    Request Call Back
+                </Button>
+                <Modal show={show} onHide={handleClose}>
+                    <Modal.Header closeButton>
+                        <Modal.Title>Success</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>You have Registered in ACCA Program!</Modal.Body>
+                    <Modal.Footer>
+                        <Button variant="primary" onClick={handleClose}>
+                            Close
+                        </Button>
+                    </Modal.Footer>
+                </Modal>
+            </>
         </div>
     </div>
   );
 }
+
 
 export default RequestCallBack;
